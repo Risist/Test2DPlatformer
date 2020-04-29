@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cedf7926bd8b7704f9df0ff796c809a5, type: 3}
+  m_Name: normalNode# 2
+  m_EditorClassIdentifier: 
+  mainText: instead i do custom drag at predefined moments
+  mainTextVoiceover: {fileID: 0}
+  actionId: -1
+  displayTime: Infinity
+  idleTransition: {fileID: 0}
+  options:
+  - optionText: Next
+    nextNode: {fileID: 11400000, guid: f5d26580dd334ea4190a6d3bf3689145, type: 2}

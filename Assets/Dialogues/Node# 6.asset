@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cedf7926bd8b7704f9df0ff796c809a5, type: 3}
+  m_Name: Node# 6
+  m_EditorClassIdentifier: 
+  mainText: That's not all i did
+  mainTextVoiceover: {fileID: 0}
+  actionId: -1
+  displayTime: Infinity
+  idleTransition: {fileID: 0}
+  options:
+  - optionText: Tell me about animations
+    nextNode: {fileID: 11400000, guid: 4f8e7b04455c1ea4d976fc6cd7465626, type: 2}
+  - optionText: Tell me about standard stuff
+    nextNode: {fileID: 11400000, guid: 1c20324e1c23ad04e8a898f3b76cda84, type: 2}
